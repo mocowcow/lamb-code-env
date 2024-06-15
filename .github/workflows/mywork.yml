@@ -1,8 +1,9 @@
 on: push
 
 jobs:
-    myjob1:
+    job_chckout:
         runs-on: ubuntu-latest    
+        name: 讀取專案文件
         steps:
         - uses: actions/checkout@v4
         - run: pwd
