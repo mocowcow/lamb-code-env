@@ -1,9 +1,11 @@
 on: push
 
 jobs:
-  myjob1:
-    steps:
-    - run: ls
+    myjob1:
+        runs-on: ubuntu-latest    
+        steps:
+        - run: pwd
+        - run: ls
 
 
 
