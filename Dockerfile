@@ -4,7 +4,7 @@ RUN apk add git
 
 # python3
 RUN git clone https://github.com/mocowcow/test-actions.git
-RUN cd test-actions
+RUN cd test-actions/assets
 
 # unzip
 RUN tar -xzvf Python-3.10.8.tgz
